@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>XHR</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="/">Home</a> | 
+        <a href="/xhr.html">XHR</a> |
+        <a href="/fetch.html">Fetch</a> |
+        <a href="/jquery.html">JQuery</a>
+      </nav>
+    <h1>AJAX CRUD using XHR</h1>
+    <form action="javascript:void(0);" method="POST">
+        <input type="text" id="customername" placeholder="customer name">
+        <button type="submit" id="myBtn" onclick="saveORupdateItem()">Save</button>
+    </form>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="customers"></tbody>
+    </table>
+
+    <script src="xhr.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+</body>
+</html>
