@@ -1,4 +1,4 @@
-package com.kgisl.batchfour;
+package com.kgisl.ajaxcallstoservlet;
 
 import java.io.IOException;
 import java.sql.SQLException;

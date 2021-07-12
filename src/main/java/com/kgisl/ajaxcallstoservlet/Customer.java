@@ -1,4 +1,4 @@
-package com.kgisl.batchfour;
+package com.kgisl.ajaxcallstoservlet;
 
 public class Customer {
     private int customerid;
